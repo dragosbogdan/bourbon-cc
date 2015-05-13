@@ -1,0 +1,5 @@
+body {
+	@include outer-container; 
+	font-family: $helvetica;
+	background-color: #f0f0f0;
+}

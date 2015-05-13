@@ -1,0 +1,13 @@
+.footer {
+	@include span-columns(12);
+	padding: 10px;
+	font-size: em(14);
+	color: grey;
+	text-align: center;
+	a {
+		color: #0081C6;
+		&:hover {
+			color: $hoverColor;	
+		}
+	}
+}
