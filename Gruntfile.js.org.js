@@ -292,15 +292,15 @@ module.exports = function (grunt) {
         //         }
         //     }
         // },
-        uglify: {
-             dist: {
-                 files: {
-                     '<%= config.dist %>/scripts/scripts.js': [
-                         '<%= config.dist %>/scripts/scripts.js'
-                     ]
-                 }
-             }
-        },
+        // uglify: {
+        //     dist: {
+        //         files: {
+        //             '<%= config.dist %>/scripts/scripts.js': [
+        //                 '<%= config.dist %>/scripts/scripts.js'
+        //             ]
+        //         }
+        //     }
+        // },
         // concat: {
         //     dist: {}
         // },
@@ -412,8 +412,7 @@ module.exports = function (grunt) {
         'modernizr',
         'rev',
         'usemin',
-        'htmlmin',
-        'uglify'
+        'htmlmin'
     ]);
 
     grunt.registerTask('default', [

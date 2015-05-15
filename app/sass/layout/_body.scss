@@ -1,5 +1,18 @@
 body {
+
 	@include outer-container; 
 	font-family: $helvetica;
-	background-color: #f0f0f0;
+
+	@include media($desktop) {
+}
+
+	@include media($tablet) {
+}
+
+	@include media($tablet-only) {
+}
+
+	@include media($mobile-only) {
+}
+
 }
